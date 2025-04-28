@@ -7,33 +7,18 @@ public class desafio2 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
-        int a, b, c;
+        int a;
 
-        System.out.println("inform um numero inteiro");
+        System.out.println("Informe um número inteiro");
         a = ler.nextInt();
-        System.out.println("inform um segundo numero inteiro");
-        b = ler.nextInt();
-        System.out.println("inform um terceiro numero inteiro");
-        c = ler.nextInt();
 
-        if (a > b){
-            if(a>c){
-                System.out.println(a+ " É o maior numero!");
-               
-            }
+        if (a % 2 == 0) {
+            System.out.println("Seu número " + a + " é par");
         }
 
-        if (b>a){
-            if (b>c){
-                System.out.println(b+ " É o maior numero!");
-            }
+        if (a % 2 != 0) {
+            System.out.println("Seu número " + a + " é impar");
         }
-        
-        if (c>a){
-            if(c>b){
-                System.out.println(c+" É o maior numero!");
-            }
-        }
-        
+//mudar para else depois em vez de 2 if
     }
 }

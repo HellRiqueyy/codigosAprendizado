@@ -2,7 +2,7 @@ package projetologica;
 
 import java.util.Scanner;
 
-public class ProjetoLogica {
+public class desafio0 {
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
